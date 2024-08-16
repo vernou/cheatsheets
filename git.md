@@ -4,7 +4,7 @@
 
 ```shell
 # Set user information
-git config user.name "Mona LISA"
+git config --global user.name "Mona LISA"
 git config --global user.email "mona.lisa@hotmail.com"
 
 # Set proxy
