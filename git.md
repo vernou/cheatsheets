@@ -16,6 +16,9 @@ git config --global --unset http.proxy
 git config --list
 # List configuration with origin
 git config --list --show-origin
+
+# Set Notepad++ as default editor on Windows
+git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
 ```
 
 ## log
