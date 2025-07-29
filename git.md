@@ -19,6 +19,9 @@ git config --list --show-origin
 
 # Set Notepad++ as default editor on Windows
 git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+
+# Automatically stash before rebase and unstash after
+git config --global rebase.autoStash true
 ```
 
 ## log
