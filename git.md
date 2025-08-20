@@ -84,6 +84,9 @@ git fetch --prune
 
 # Display all branches, those with the tag [gone] they no longer exist on the remote
 git branch -v
+
+# Delete local branch with the tag [gone] (see below for explanations about [gone])
+git branch -D $(git for-each-ref --format '%(if:equals=gone)%(upstream:track,nobracket)%(then)%(refname:short)%(end)' refs/heads/)
 ```
 
 ## remote
