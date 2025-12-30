@@ -47,7 +47,11 @@ git commit --amend --reuse-message HEAD
 ## rebase
 
 ```shell
+# Rebase the current branch on the branch 'master'
 git rebase master
+
+# Modify the history (like merge commits) for last five commits
+git rebase -i HEAD~5
 ```
 
 ## diff
