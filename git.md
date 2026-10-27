@@ -24,7 +24,7 @@ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -mul
 git config --global rebase.autoStash true
 
 # On Windows to use git when file path exceeds 256 characters
-git config --system core.longpaths true
+git config --global core.longpaths true
 
 # Disable gpg signature in a repository
 git config commit.gpgsign false
